@@ -1,0 +1,16 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Percentage 
+{
+	public static void main(String[] args) 
+	{
+		float p;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Percentage of STUDENT: ");
+		p = sc.nextFloat();
+		
+		
+	}
+}

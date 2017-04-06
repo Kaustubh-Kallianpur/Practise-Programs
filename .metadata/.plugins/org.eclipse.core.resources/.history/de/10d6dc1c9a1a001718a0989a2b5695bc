@@ -1,0 +1,20 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class AutomorphicNo
+{
+	public static void main(String[] args) 
+	{
+		int n;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER A NUMBER TO CHECK IF IT IS AUTOMORPHIC");
+		n = sc.nextInt();
+		sc.close();
+		int sq = n*n;
+		
+		String num = Integer.toString(n);
+		System.out.println(" Number = "+n);
+		
+	}
+}

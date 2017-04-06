@@ -1,0 +1,50 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Calculator 
+{
+	
+	static int a, b, calc=0;
+	static char x;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.print("Enter first number: ");
+		a = sc.nextInt();
+		
+		System.out.println("Enter second number: ");
+		b = sc.nextInt();
+		
+		System.out.println("Enter the operation to perform: ie( +, -, /, *, %) ONLY" );
+		x = sc.next().charAt(0);
+	}
+	
+	public int calculate(int a, int b)
+	{
+		switch (x)
+		{
+		case '+':	return a+b;
+		case '-':	return a-b;
+		case '*':	return a*b;
+		case '/':	return a/b;
+		case '%':	return a%b;
+
+		default:	System.out.println("INVALID OPERATOR");
+					break;
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		Calculator cc = new Calculator();
+		cc.input();
+		int value = cc.calculate(a, b);
+		if(value == (Integer) null)
+		{
+			System.out.println("Output -");
+			System.out.println(a+" "+x+" "+b+" = "+value);
+		}
+	}
+}

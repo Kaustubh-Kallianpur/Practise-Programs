@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Register Here</title>
+<link rel="resources/css/bootstrap.min.css">
+<script type="text/javascript"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;"> Register </h1>
+		<hr>
+			<form action="">
+				<table class="table">
+					<tr>
+						<td></td>
+					</tr>
+					
+					
+				</table>
+			</form>
+	</div>
+</body>
+</html>

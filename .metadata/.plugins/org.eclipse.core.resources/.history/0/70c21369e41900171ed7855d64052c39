@@ -1,0 +1,22 @@
+package practiseDay_1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Marks 
+{
+	List<Integer> a = new ArrayList<Integer>();
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		int i;
+		for(i=0; i<6; i++)
+		{	
+			System.out.println("Enter marks of subject "+i+" : ");
+			a.add(sc.nextInt());
+			
+		}
+	}
+}

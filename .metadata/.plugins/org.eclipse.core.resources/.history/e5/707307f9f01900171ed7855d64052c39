@@ -1,0 +1,13 @@
+package practiseDay_1;
+
+public class DivisibleByEight 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		for(i=101; i<200; i++)
+		{
+			
+		}
+	}
+}

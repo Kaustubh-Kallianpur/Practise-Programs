@@ -1,0 +1,11 @@
+package practiseDay_1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Marks 
+{
+	List<int> a = new ArrayList<int>();
+	
+	
+}

@@ -1,0 +1,9 @@
+package practiseDay_1;
+
+public class AutomorphicNo
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

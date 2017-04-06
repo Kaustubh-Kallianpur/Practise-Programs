@@ -1,0 +1,36 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class ElectrcityBill 
+{
+	long c_number;
+	int units;
+	float total = 200;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.print("ENTER CONSUMER NUMBER: ");
+		c_number = sc.nextLong();
+		
+		System.out.print("ENTER UNITS CONSUMED: ");
+		units = sc.nextInt();
+	}
+	
+	public void calculateBill()
+	{
+		if(units > 100)
+			total = total + (units-100);
+		if(units > 300)
+			total = (float) (total + ((units-300)*1.55));
+		
+	}
+	
+	public static void main(String[] args) 
+	{	
+		ElectrcityBill eb = new ElectrcityBill();
+		eb.input();
+		eb.calculateBill();
+	}
+}

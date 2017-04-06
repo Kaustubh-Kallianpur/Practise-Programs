@@ -1,0 +1,22 @@
+package practiseDay_1;
+
+public class PrimeNumber 
+{
+	int num;
+	
+	public void input()
+	{
+		System.out.println("Enter a number to check PRIME: ");
+		
+	}
+	
+	public void process()
+	{
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}

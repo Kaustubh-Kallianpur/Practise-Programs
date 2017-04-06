@@ -1,0 +1,7 @@
+package practiseDay_1;
+
+public class PrimeNumber 
+{
+	int num;
+	
+}

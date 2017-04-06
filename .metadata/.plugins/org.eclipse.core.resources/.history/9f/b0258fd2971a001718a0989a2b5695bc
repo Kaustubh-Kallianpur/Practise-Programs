@@ -1,0 +1,16 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Automorphic_Number 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your choice:");
+		System.out.println("1. for area of Square");
+		System.out.println("2. for area of rectangle");
+		System.out.println("3. for area of circle");
+	}
+}

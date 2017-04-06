@@ -1,0 +1,18 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class CircleArea 
+{
+	public static void main(String[] args) 
+	{
+		float radius;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ENTER THE RADIUS OF CIRCLE");
+		radius = sc.nextFloat();
+		sc.close();
+		
+		float area = (float) (radius * radius * 3.1415);
+		System.out.println("AREA OF SQUARE OF SIDE "+radius+" = "+area+"SQ.M");
+	}
+}

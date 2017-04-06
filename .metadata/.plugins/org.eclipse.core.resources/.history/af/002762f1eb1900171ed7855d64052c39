@@ -1,0 +1,29 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Palindrome 
+{
+	long n;
+	
+	public void input()
+	{
+		System.out.print("Enter a number: ");
+		Scanner sc = new Scanner(System.in);
+		
+		n = sc.nextLong();
+	}
+	
+	public void checkPalindrome()
+	{
+		long rem, rev = 0;
+		long temp = n;
+		while(temp!=0)
+		{
+			rem = temp%10;
+			rev = rev*10 + rem;
+			temp = temp/10;
+		}
+		
+	}
+}

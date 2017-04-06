@@ -1,0 +1,21 @@
+package practiseDay_1;
+
+public class PrimeNumber 
+{
+	int num;
+	
+	public void input()
+	{
+		
+	}
+	
+	public void process()
+	{
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}

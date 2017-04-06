@@ -1,0 +1,16 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class PerfectNumber 
+{
+	int num;
+	int i;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.println("Enter a number :");
+		
+	}
+}

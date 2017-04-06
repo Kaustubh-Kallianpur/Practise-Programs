@@ -1,0 +1,20 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class RectangleArea 
+{
+	public static void main(String[] args) 
+	{
+		float l, b;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("ENTER THE LENGTH OF RECTANGLE");
+		l = sc.nextFloat();
+		System.out.print("ENTER THE BREADTH OF RECTANGLE");
+		b = sc.nextFloat();
+		sc.close();
+		
+		float area = l*b;
+		System.out.println("AREA OF RECTANGLE = "+area);
+	}
+}

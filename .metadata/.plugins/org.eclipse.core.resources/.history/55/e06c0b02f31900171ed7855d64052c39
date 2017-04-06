@@ -1,0 +1,15 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class SquareArea 
+{
+	public static void main(String[] args) 
+	{
+		int side;
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package practiseDay_1;
+
+public class FibonacciSeries 
+{
+	long a, b, c;
+	int n;
+	
+	
+}

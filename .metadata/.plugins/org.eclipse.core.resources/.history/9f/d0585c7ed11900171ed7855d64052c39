@@ -1,0 +1,17 @@
+package connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBConnection 	
+{
+	public static Connection connection;
+	
+	public static Connection getConnection() throws Exception
+	{
+		Class.forName("org.h2.Driver");
+		connection = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/Practise", "Kaustubh", "");
+		
+		return connection;
+	}
+}

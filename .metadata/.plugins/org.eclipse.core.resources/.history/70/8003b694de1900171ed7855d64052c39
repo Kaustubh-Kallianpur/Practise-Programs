@@ -1,0 +1,21 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class VowelCheck 
+{
+	char a;
+	Scanner sc = new Scanner(System.in);
+	
+	public char input()
+	{
+		System.out.print("Enter a charectar: ");
+		a = sc.next().charAt(0);
+		return a;
+	}
+	
+	public boolean isVowel(char a)
+	{
+		
+	}
+}

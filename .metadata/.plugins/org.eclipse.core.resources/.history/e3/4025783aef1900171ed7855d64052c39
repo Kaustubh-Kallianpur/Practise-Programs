@@ -1,0 +1,12 @@
+package practiseDay_1;
+
+public class Tables 
+{
+	long n;
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

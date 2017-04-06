@@ -1,0 +1,23 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Percentage 
+{
+	public static void main(String[] args) 
+	{
+		float p;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Percentage of STUDENT: ");
+		p = sc.nextFloat();
+		
+		if(p >= 60)
+			System.out.println("FIRST CLASS");
+		else if(p < 60 && p >= 45)
+			System.out.println("SECOND CLASS");
+		else if(p < 45 && p >= 35)
+			System.out.println("THIRD CLASS");
+		else if(p < 35)
+			System.out.println("FAIL");
+	}
+}

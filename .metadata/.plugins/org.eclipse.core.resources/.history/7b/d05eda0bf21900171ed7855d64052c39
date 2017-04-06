@@ -1,0 +1,10 @@
+package practiseDay_1;
+
+public class Percentage 
+{
+	public static void main(String[] args) 
+	{
+		float p;
+		
+	}
+}

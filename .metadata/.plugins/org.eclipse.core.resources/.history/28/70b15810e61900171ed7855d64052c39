@@ -1,0 +1,28 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class LeapYear 
+{
+	int year;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.println("Enter a year: ");
+		year = sc.nextInt();
+	}
+	
+	public boolean calculate()
+	{
+		if(year%4 == 0)
+			return true;
+		else
+			return false;
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}

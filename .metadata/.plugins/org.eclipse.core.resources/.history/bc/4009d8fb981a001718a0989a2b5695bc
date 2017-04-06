@@ -1,0 +1,62 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Automorphic_Number 
+{
+	static Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) 
+	{
+		int i;
+		System.out.println("ENTER YOUR CHOICE:");
+		System.out.println("1. for area of SQUARE");
+		System.out.println("2. for area of RECTANGLE");
+		System.out.println("3. for area of CIRCLE");
+		i = sc.nextInt();
+		Automorphic_Number am = new Automorphic_Number();
+		
+			switch (i) 
+			{
+				case 1:
+						am.areaSquare();
+						break;
+				case 2:
+						am.areaRectangle();
+						break;
+				case 3:
+						am.areaCircle();
+						break;
+						
+				default:
+						System.out.println("INVALID INPUT");
+						break;
+			}
+	}
+	
+	public void areaCircle()
+	{
+		System.out.print("ENTER RADIUS OF CIRCLE: ");
+		float radius = sc.nextFloat();
+		float area = 3.1415F * radius * radius;
+		System.out.println("AREA OF CIRCLE = "+area);
+	}
+	
+	public void areaSquare()
+	{
+		System.out.print("ENTER SIDE LENGTH OF SQUARE: ");
+		float side = sc.nextFloat();
+		float area = side * side;
+		System.out.println("AREA OF SQUARE = "+area);
+	}
+	
+	public void areaRectangle()
+	{
+		System.out.print("ENTER THE LENGTH: ");
+		float length = sc.nextFloat();
+		System.out.println("ENTER THE BREADTH: ");
+		float breadth = sc.nextFloat();
+		float area = length * breadth;
+		System.out.println("AREA OF RECTANGLE = "+area);
+	}
+}

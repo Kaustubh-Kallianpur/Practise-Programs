@@ -1,0 +1,43 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class PrimeNumber 
+{
+	int num;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.println("Enter a number to check PRIME: ");
+		num = sc.nextInt();
+	}
+	
+	public void process()
+	{
+		if(num==0 || num==1)
+		{
+			System.out.println("NEITHER PRIME NOR COMPOSITE");
+		}
+		else
+		{
+			for(int i=2; i<=num/2; i++)
+			{
+				if(num%i==0)
+				{
+					System.out.println(num+" is not a PRIME");
+					break;
+				}
+			}
+			else
+			{
+				System.out.println(num+" is A PRIME");
+			}
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}

@@ -1,0 +1,10 @@
+package practiseDay_1;
+
+public class Calculator 
+{
+	
+	int a, b, calc=0;
+	Scanner sc = new Scanner(System.in);
+	
+	
+}

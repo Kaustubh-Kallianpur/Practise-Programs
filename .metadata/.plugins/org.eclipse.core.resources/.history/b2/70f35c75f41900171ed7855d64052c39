@@ -1,0 +1,15 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class ElectrcityBill 
+{
+	long c_number;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.print("ENTER CONSUMER NUMBER: ");
+		
+	}
+}

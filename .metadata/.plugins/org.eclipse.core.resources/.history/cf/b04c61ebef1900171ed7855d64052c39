@@ -1,0 +1,12 @@
+package practiseDay_1;
+
+public class FibonacciSeries 
+{
+	public static void main(String[] args) 
+	{
+		long a, b, c;
+		int n;
+		
+		Scanner sc = new Scanner(System.in);
+	}
+}

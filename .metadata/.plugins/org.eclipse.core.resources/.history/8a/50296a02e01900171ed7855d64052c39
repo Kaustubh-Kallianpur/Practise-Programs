@@ -1,0 +1,22 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class Calculator 
+{
+	
+	static int a, b, calc=0;
+	static char x;
+	Scanner sc = new Scanner(System.in);
+	
+	public void input()
+	{
+		System.out.print("Enter first number: ");
+		a = sc.nextInt();
+		
+		System.out.println("Enter second number: ");
+		b = sc.nextInt();
+		
+		
+	}
+}

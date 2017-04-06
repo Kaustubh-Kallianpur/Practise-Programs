@@ -1,0 +1,8 @@
+package practiseDay_1;
+
+public class PerfectNumber 
+{
+	int num;
+	
+	
+}

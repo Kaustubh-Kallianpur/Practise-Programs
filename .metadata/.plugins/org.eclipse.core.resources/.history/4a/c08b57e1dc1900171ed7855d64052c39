@@ -1,0 +1,25 @@
+package practiseDay_1;
+
+import java.util.Scanner;
+
+public class ReverseNumber 
+{
+	int n;
+	Scanner sc = new Scanner(System.in);
+	
+	public int input()
+	{
+		System.out.println("Enter a 4 digit number: ");
+		n = sc.nextInt();
+		return n;
+	}
+	
+	public int reverse(int n)
+	{
+		while(n!=0)
+		{
+			
+		}
+		return 0;
+	}
+}

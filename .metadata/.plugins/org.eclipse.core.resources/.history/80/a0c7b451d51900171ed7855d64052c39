@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Register Here</title>
+<script src="resources/js/jquery-3.2.0.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;"> Register </h1>
+		<br>
+			<form action="">
+				<table class="table">
+					<tr>
+						<td>User Name</td>
+						<td><input type="text" autofocus="autofocus" placeholder="Choose a UserName" maxlength="100"></td>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td><input type="text" placeholder="Enter your name" maxlength="200"></td>
+					</tr>					
+					<tr>
+						<td>Mobile No</td>
+						<td><input type="text" placeholder="Enter your mobile no" maxlength="200"></td>
+					</tr>
+					<tr>
+						<td>E-mail ID</td>
+						<td><input type="text" placeholder="Enter your E-mail ID" maxlength="250"></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input type="text" placeholder="Enter a password" maxlength="50"></td>
+					</tr>					
+				</table>
+			</form>
+	</div>
+</body>
+</html>
