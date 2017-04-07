@@ -5,6 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login Here</title>
+<script src="resources/js/jquery-3.2.0.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+
 </head>
 <body>
 	<div class="container">
@@ -12,15 +16,15 @@
 		<br>
 			<div class="row">
 			<div class="col-md-5">
-			<form action="" method="post">
+			<form action="login" method="post">
 				<table class="table">
 					<tr>
 						<td>User Name</td>
-						<td><input type="text" autofocus="autofocus" placeholder="UserName" maxlength="100" name="username"></td>
+						<td><input type="text" autofocus="autofocus" placeholder="UserName" maxlength="100" required="required" name="username"></td>
 					</tr>
 					<tr>
 						<td>Password</td>
-						<td><input type="password" placeholder="Password" maxlength="50" name="password"></td>
+						<td><input type="password" placeholder="Password" maxlength="50" name="password" required="required"></td>
 					</tr>	
 					<tr>
 						<td><input type="submit" value="Login"></td>
@@ -31,6 +35,8 @@
 			</div>
 			<div class="col-md-7"></div>
 			</div>
+			${loggedin}
+			${LogOut}
 	</div>
 </body>
 </html>

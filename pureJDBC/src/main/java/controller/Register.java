@@ -29,8 +29,6 @@ public class Register extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		
-//		System.out.println("Username -"+username);
-		
 		User user = new User();
 		user.setUsername(username);
 		user.setName(name);
@@ -53,5 +51,4 @@ public class Register extends HttpServlet {
 	{	
 		doGet(request, response);
 	}
-
 }

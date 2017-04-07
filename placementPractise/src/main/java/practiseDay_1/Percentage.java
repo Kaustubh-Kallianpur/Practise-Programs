@@ -10,7 +10,7 @@ public class Percentage
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Percentage of STUDENT: ");
 		p = sc.nextFloat();
-		
+		sc.close();
 		if(p >= 60 && p <100)
 			System.out.println("FIRST CLASS");
 		else if(p < 60 && p >= 45)

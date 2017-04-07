@@ -19,23 +19,23 @@
 				<table class="table">
 					<tr>
 						<td>User Name</td>
-						<td><input type="text" autofocus="autofocus" placeholder="Choose a UserName" maxlength="100" name="username"></td>
+						<td><input type="text" required="required" autofocus="autofocus" placeholder="Choose a UserName" maxlength="100" name="username"></td>
 					</tr>
 					<tr>
 						<td>Name</td>
-						<td><input type="text" placeholder="Enter your name" maxlength="200" name="name"></td>
+						<td><input type="text" required="required" placeholder="Enter your name" maxlength="200" name="name"></td>
 					</tr>					
 					<tr>
 						<td>Mobile No</td>
-						<td><input type="text" placeholder="Enter your mobile no" maxlength="200" name="mobile"></td>
+						<td><input type="text" required="required" placeholder="Enter your mobile no" maxlength="200" name="mobile"></td>
 					</tr>
 					<tr>
 						<td>E-mail ID</td>
-						<td><input type="text" placeholder="Enter your E-mail ID" maxlength="250" name="email"></td>
+						<td><input type="text" required="required" placeholder="Enter your E-mail ID" maxlength="250" name="email"></td>
 					</tr>
 					<tr>
 						<td>Password</td>
-						<td><input type="password" placeholder="Enter a password" maxlength="50" name="password"></td>
+						<td><input type="password" placeholder="Enter a password" required="required" maxlength="50" name="password"></td>
 					</tr>	
 					<tr>
 						<td><input type="submit" value="Register"></td>
